@@ -1,7 +1,7 @@
 # Random wiki fetcher
 
 This script aims to fetch random wikipedia articles depending on the user's interactions.
-The user will get random articles summaries and can choose to read the full article on the browser.
+The user will get random articles summaries and can choose to read the full article in the browser.
 
 ## Prerequisites
 
