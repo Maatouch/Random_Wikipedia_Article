@@ -1,11 +1,11 @@
 # Random wiki fetcher
 
-This script aims to fetch random wikipedia articles depending on user interactions.
-The user will get random wikipedia articles and can choose to 
+This script aims to fetch random wikipedia articles depending on the user's interactions.
+The user will get random articles summaries and can choose to read the full article on the browser.
 
 ## Prerequisites
 
-We will use wikipedia module to interact with the API
+We will use wikipedia package to interact with the API
 
 ```
 pip install wikipedia
