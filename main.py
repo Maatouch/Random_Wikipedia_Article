@@ -13,7 +13,7 @@ while user_input =="No":
     page = wikipedia.page(title)
     #accessing the article page
 
-    print(title + "\n" + wikipedia.summary(title))
+    print(title + "\n\n" + wikipedia.summary(title))
 
     user_input = input("Do you want to read the full article? Yes/No \n")
 
@@ -24,6 +24,7 @@ while user_input =="No":
         continue
 
     while not (user_input =="Yes") | (user_input =="No") :
+        print("You typed {}", str(user_input))
         user_input = input("Do you want to read the full article? Yes/No \n")
         #making sure that the user input is Yes or No
 
